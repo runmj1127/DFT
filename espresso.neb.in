@@ -1,7 +1,7 @@
 BEGIN
 BEGIN_PATH_INPUT
 &PATH
-    ci_scheme      = "no-CI"
+    ci_scheme      = "auto"
     ds             =  1.0
     first_last_opt = .TRUE.
     k_max          =  0.61685028
@@ -18,7 +18,7 @@ END_PATH_INPUT
 
 BEGIN_ENGINE_INPUT
 &CONTROL
-    pseudo_dir = "C:\Users\User\.nanolabo\.pseudopot"
+    pseudo_dir = "./"
     verbosity  = "low"
 /
 
@@ -1000,4 +1000,5 @@ END_POSITIONS
 
 END_ENGINE_INPUT
 END
+
 
